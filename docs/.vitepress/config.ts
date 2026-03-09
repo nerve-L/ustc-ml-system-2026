@@ -4,7 +4,7 @@ import markdownItKatex from 'markdown-it-katex'
 export default defineConfig({
   title: 'USTC ML System 2026',
   description: 'Machine Learning System Course',
-  base: '/ml-system-2026/',
+  base: '/ustc-ml-system-2026/',
   
   head: [
     ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css' }],
