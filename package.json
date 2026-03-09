@@ -6,14 +6,16 @@
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
-    "preview": "vitepress preview docs"
+    "preview": "vitepress preview docs",
+    "deploy": "gh-pages -d docs/.vitepress/dist"
   },
   "devDependencies": {
-    "vitepress": "^1.0.0",
-    "vue": "^3.3.4",
-    "tailwindcss": "^3.3.3",
-    "postcss": "^8.4.27",
     "autoprefixer": "^10.4.14",
-    "markdown-it-katex": "^2.0.3"
+    "gh-pages": "^6.3.0",
+    "markdown-it-katex": "^2.0.3",
+    "postcss": "^8.4.27",
+    "tailwindcss": "^3.3.3",
+    "vitepress": "^1.0.0",
+    "vue": "^3.3.4"
   }
 }
